@@ -17,9 +17,8 @@ class StudentDesks {
         int desks1 = (group1 / 2) + (group1 % 2);
         int desks2 = (group2 / 2) + (group2 % 2);
         int desks3 = (group3 / 2) + (group3 % 2);
-        int totalDesks = desks1 + desks2 + desks3;
 
-        System.out.println(totalDesks);
+        System.out.print(desks1 + desks2 + desks3);
 
         // closing the scanner object
         scanner.close();
