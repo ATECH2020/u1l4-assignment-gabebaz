@@ -18,6 +18,11 @@ class Timestamps {
         /*
          *  your code goes here
          */
+         int calcHours = (hours2 - hours1) * 3600;
+         int calcMins = (minutes2 - minutes1) * 60;
+         int calcSecs = seconds2 - seconds1;
+
+         System.out.print(calcHours + calcMins + calcSecs);
 
 
         // closing the scanner object
